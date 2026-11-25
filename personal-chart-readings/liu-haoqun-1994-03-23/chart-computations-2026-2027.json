@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "created_on": "2026-11-25",
   "language": "zh-TW",
-  "notice": "計算資料不是占星預言。太陽回歸圖四軸與宮位在回歸地點核對前僅供暫定參考。",
+  "notice": "2026 太陽回歸所在地已由使用者確認為「新竹縣新埔鎮」；四軸與宮頭以交通部觀光署新埔鎮代表座標計算，屬鄉鎮層級近似值。2027 回歸所在地未確認，暫用桃園試算。占星解讀非科學驗證的事件預測。",
   "ephemeris": {
     "engine": "Swiss Ephemeris 2.10.03",
     "mode": "Moshier fallback",
@@ -199,23 +199,23 @@
     "return_2026": {
       "solar_return_utc": "2026-03-22T19:58:32.389Z",
       "solar_return_local": "2026-03-23T03:58:32.389+08:00",
-      "angular_location_status": "PROVISIONAL",
-      "place_assumed": "Taoyuan, Taiwan",
+      "angular_location_status": "USER_CONFIRMED_XINPU_TOWNSHIP_APPROXIMATE_COORDINATES",
+      "place_assumed": "Xinpu Township, Hsinchu County, Taiwan (representative point)",
       "coordinates_assumed": {
-        "longitude": 121.3,
-        "latitude": 24.9833333333
+        "longitude": 121.07114,
+        "latitude": 24.827883
       },
       "ascendant": {
         "sign": "水瓶",
-        "position": "22°10′39″",
-        "longitude_deg": 322.1775,
+        "position": "21°57′20″",
+        "longitude_deg": 321.9555556,
         "house": 1,
         "retrograde": false
       },
       "midheaven": {
         "sign": "射手",
-        "position": "03°18′00″",
-        "longitude_deg": 243.3,
+        "position": "03°04′56″",
+        "longitude_deg": 243.0822222,
         "house": 10,
         "retrograde": false
       },
@@ -290,7 +290,72 @@
           "house": 12,
           "retrograde": false
         }
-      }
+      },
+      "location_user_confirmed": "新竹縣新埔鎮",
+      "location_precision": "confirmed township; representative coordinates, not personal exact location",
+      "coordinate_reference_url": "https://eng.taiwan.net.tw/m1.aspx?id=6881&sno=0002108",
+      "house_cusps": [
+        {
+          "house": 1,
+          "sign": "水瓶",
+          "position": "21°57′20″"
+        },
+        {
+          "house": 2,
+          "sign": "牡羊",
+          "position": "01°18′33″"
+        },
+        {
+          "house": 3,
+          "sign": "金牛",
+          "position": "05°26′05″"
+        },
+        {
+          "house": 4,
+          "sign": "雙子",
+          "position": "03°04′56″"
+        },
+        {
+          "house": 5,
+          "sign": "雙子",
+          "position": "27°25′12″"
+        },
+        {
+          "house": 6,
+          "sign": "巨蟹",
+          "position": "22°13′17″"
+        },
+        {
+          "house": 7,
+          "sign": "獅子",
+          "position": "21°57′20″"
+        },
+        {
+          "house": 8,
+          "sign": "天秤",
+          "position": "01°18′33″"
+        },
+        {
+          "house": 9,
+          "sign": "天蠍",
+          "position": "05°26′05″"
+        },
+        {
+          "house": 10,
+          "sign": "射手",
+          "position": "03°04′56″"
+        },
+        {
+          "house": 11,
+          "sign": "射手",
+          "position": "27°25′12″"
+        },
+        {
+          "house": 12,
+          "sign": "魔羯",
+          "position": "22°13′17″"
+        }
+      ]
     },
     "return_2027": {
       "solar_return_utc": "2027-03-23T01:39:27.802Z",
@@ -393,5 +458,6 @@
     "README.md",
     "secondary-progressions-2026.md",
     "solar-return-2026-2027.md"
-  ]
+  ],
+  "last_updated_on": "2026-11-25"
 }
