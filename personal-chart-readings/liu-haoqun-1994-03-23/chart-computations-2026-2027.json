@@ -193,6 +193,27 @@
         "house": 6,
         "retrograde": true
       }
+    },
+    "astro_com_verification": {
+      "source": "User-supplied Astro.com natal chart and progressions screenshots on 2026-11-25",
+      "chart_title": "Natal Chart and Progressions for 15 Dec. 2026",
+      "chart_method": "Web Style / Placidus",
+      "birth_time_utc": "1994-03-23T01:43:00Z",
+      "progressed_epoch_utc_shown": "1994-04-24T19:16:22Z",
+      "comparison_summary": "All ten progressed planet positions agree with independently computed positions at the displayed arcminute precision.",
+      "progressed_ascendant": {
+        "sign": "巨蟹",
+        "position": "10°11′",
+        "longitude_deg": 100.1833333,
+        "verification": "read from Astro.com screenshot; method-specific; not independently verified"
+      },
+      "progressed_midheaven": {
+        "sign": "雙魚",
+        "position": "29°36′",
+        "longitude_deg": 359.6,
+        "verification": "read from Astro.com screenshot; method-specific; not independently verified"
+      },
+      "notes": "Difference vs prior numerical progressed-epoch UTC is approximately 40 seconds. Do not confuse progressed angles with natal or solar-return angles. This snapshot is not a complete, independently calculated progressed house-cusp set."
     }
   },
   "solar_returns": {
