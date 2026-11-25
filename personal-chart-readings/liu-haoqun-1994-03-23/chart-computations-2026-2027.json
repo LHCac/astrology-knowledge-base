@@ -376,7 +376,84 @@
           "sign": "魔羯",
           "position": "22°13′17″"
         }
-      ]
+      ],
+      "astro_com_verification": {
+        "source": "User-provided Astro.com Solar Return 2026/2027 chart screenshots, 2026-11-25",
+        "chart_type": "Solar Return 2026/2027",
+        "method": "Web Style / Placidus",
+        "reference_place": "Hsinchu, Taiwan (Hsinchu City; NOT Xinpu Township)",
+        "reference_place_coordinate_display": {
+          "longitude": "120°58′E",
+          "latitude": "24°48′N",
+          "rounded": true
+        },
+        "solar_return_local": "2026-03-23T03:58:32+08:00",
+        "solar_return_utc": "2026-03-22T19:58:32Z",
+        "ascendant": {
+          "sign": "水瓶",
+          "position": "21°50′19″",
+          "longitude_deg": 321.8386111
+        },
+        "midheaven": {
+          "sign": "射手",
+          "position": "02°58′58″",
+          "longitude_deg": 242.9827778
+        },
+        "planets_from_screenshot": {
+          "太陽": {
+            "sign": "牡羊",
+            "position": "02°12′08″",
+            "longitude_deg": 2.2022222
+          },
+          "月亮": {
+            "sign": "金牛",
+            "position": "22°33′34″",
+            "longitude_deg": 52.5594444
+          },
+          "水星": {
+            "sign": "雙魚",
+            "position": "08°41′12″",
+            "longitude_deg": 338.6866667
+          },
+          "金星": {
+            "sign": "牡羊",
+            "position": "20°19′41″",
+            "longitude_deg": 20.3280556
+          },
+          "火星": {
+            "sign": "雙魚",
+            "position": "15°55′52″",
+            "longitude_deg": 345.9311111
+          },
+          "木星": {
+            "sign": "巨蟹",
+            "position": "15°18′29″",
+            "longitude_deg": 105.3080556
+          },
+          "土星": {
+            "sign": "牡羊",
+            "position": "04°24′14″",
+            "longitude_deg": 4.4038889
+          },
+          "天王星": {
+            "sign": "金牛",
+            "position": "28°23′14″",
+            "longitude_deg": 58.3872222
+          },
+          "海王星": {
+            "sign": "牡羊",
+            "position": "01°51′27″",
+            "longitude_deg": 1.8575
+          },
+          "冥王星": {
+            "sign": "水瓶",
+            "position": "05°03′02″",
+            "longitude_deg": 305.0505556
+          }
+        },
+        "comparison": "All ten planets and solar return time agree to one arcsecond or better; Pluto differs by 1 arcsecond. ASC differs by about 7 arcminutes 1 arcsecond and MC by about 5 arcminutes 58 arcseconds from Xinpu Township location; this is due to different reference place.",
+        "important": "The official working location for 2026 in this repo remains Xinpu Township, Hsinchu County, Taiwan, as confirmed by the user; Astro.com Hsinchu City chart is cross-validation only."
+      }
     },
     "return_2027": {
       "solar_return_utc": "2027-03-23T01:39:27.802Z",
